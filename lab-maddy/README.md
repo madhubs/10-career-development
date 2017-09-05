@@ -6,6 +6,15 @@
   * In this project I complete the Linked List data structure by adding a `removeNthNode(n)` method.
   * Within each function, I will note the Big-O runtime.
 
+  1. Reverse():
+  * The reverse function will use a while loop to traverse through the singly linked list and as it does it will reverse the next pointers.
+    - Input: 1->2->3->4->null
+    - Output: null<-1<-2<-3<-4
+
+  2. Remove nth Node:
+  
+
+
   * Any resources that helped me complete this assignment:
     - This stack overflow forum question about removing a node from the middle of a linked list:
     https://stackoverflow.com/questions/39283662/remove-node-from-singly-linked-list
