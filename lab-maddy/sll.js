@@ -1,7 +1,7 @@
 'use strict';
-
-const Node = require('./node');
-const linkList = require('./ll');
+// 
+// const Node = require('./node');
+// const linkList = require('./ll');
 
 let reverse = function(){
   let next;
@@ -15,7 +15,7 @@ let reverse = function(){
     curr = next;
   }
 
-  this.head = prev; 
+  this.head = prev;
   return this;
 };
 

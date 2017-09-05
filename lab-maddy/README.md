@@ -7,9 +7,16 @@
   * Within each function, I will note the Big-O runtime.
 
   * Any resources that helped me complete this assignment:
-    - This stack overflow forum question about removing a node from the middle of a linked list
+    - This stack overflow forum question about removing a node from the middle of a linked list:
+    https://stackoverflow.com/questions/39283662/remove-node-from-singly-linked-list
+
+    - This tutorial was incredible for visualizing and understanding traversing through linked lists:
+    https://www.youtube.com/watch?v=TSDl7sRxWdU&index=1&list=LLOht0sOlAclPCSApbUywH9w
 
   * How another dev could 'get started' with this project:
+    - Fork this repo.
+    - Clone your fork.
+    - Create a branch from your fork.
 
 
 # Packages and commands to remember:
@@ -35,4 +42,4 @@
 
 
 # Collaborators:
-Michelle, Zach, Caleb.
+Michelle, Zach, Caleb, Isaac, Aaron.
