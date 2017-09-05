@@ -4,12 +4,24 @@
 // const linkList = require('./ll');
 
 
-//define the singlyList object
+//define the singlyList object??
 
 
 
+//append function (adding a new node to the end of the list)
+append(val){
+  let node = new Node(val);
+  let lastNode = null;
 
-//The reverse() function will use a while loop to traverse through the singly linked list and as it does it will be reversing the next pointers to equal whatever previous is.
+if(!this.head){
+  this.head = node;
+  return node;
+}
+  }
+}
+
+
+//The reverse() function will use a while loop to traverse through the singly linked list and as it does it will be reassigning the next pointers to equal whatever previous is.
 //input: 1->2->3->4->null
 //output: null<-1<-2<-3<-4
 let reverse = function(){
@@ -45,8 +57,11 @@ let removeNode = function(){
       prev = curr.next;
       count++
     }
-  }
+    prev.next = curr.next;
+    this._length--;
 
-}
+    return this.head;
+  }
+};
 
 singlyList.removeNode(3)//need to create an add function be able to add to an array/singly linked list in order to test removing from a list.
